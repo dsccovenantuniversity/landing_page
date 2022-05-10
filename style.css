@@ -1,0 +1,82 @@
+* { 
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+}
+	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
+	
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}
+
+/* Please don't make changes to the code above unless necessary */
+/* Start writing your CSS code after this line */
+
+
+/* Section home begins */
+
+/* Section home ends */
+
+
+/* Section about-us begins */
+
+/* Section about-us ends */
+
+
+/* Section offer begins */
+
+/* Section offer ends */
+
+
+/* Section menu begins */
+
+/* Section menu ends */
+
+
+/* Section dropdown begins */
+
+    /* Section our-chef begins */
+
+    /* Section our-chef ends */
+
+
+    /* Section testimonial begins */
+
+    /* Section testimonial ends */
+
+
+    /* Section popular-dishes begins */
+
+    /* Section popular-dishes ends */
+
+
+    /* Section cateling begins */
+
+    /* Section cateling ends */
+
+
+    /* Section events begins */
+
+    /* Section events ends */
+    
+/* Section dropdown ends */
+
+
+/* Section gallery begins */
+
+/* Section gallery ends */
+
+
+/* Section book-now begins */
+
+/* Section book-now ends */
+
+
+
+
+

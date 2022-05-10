@@ -187,6 +187,40 @@ Between these and Google, you should be able to solve most issues you'll encount
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Tasks assigned and File structure
+
+- Homepage
+     -Logo
+     -Navbar
+     -Picture slideshow
+     - Banner caption
+- About us
+     -About us text
+     -About us card
+- Service sections/menu
+     -Menu variety(set of menu cards to a button)
+     -Hot picks
+     -Menu cards
+- Our Staff
+    -Chef card slider(navigates to different chefs)
+    - Chef card with details
+- Events
+    -Event card with date and details
+- Testimonials
+   -Customer testimonial cards
+   - card slideshow
+-Contact form
+     -Form to collect details
+- Order/contact info
+     -Restaurant details, address, social media handles
+-Footer
+   -navigation pane/ search bar
+   -Social media handles
+
+
+## Figma file
+
+- https://www.figma.com/file/OwQs4uR2JadGdVcm0QWRjv/Landing-Page---GDSC?node-id=0%3A1
 <!-- LICENSE -->
 
 <!-- ## License
