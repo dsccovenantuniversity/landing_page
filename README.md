@@ -217,6 +217,10 @@ Between these and Google, you should be able to solve most issues you'll encount
    -navigation pane/ search bar
    -Social media handles
 
+
+## Figma file
+
+- https://www.figma.com/file/OwQs4uR2JadGdVcm0QWRjv/Landing-Page---GDSC?node-id=0%3A1
 <!-- LICENSE -->
 
 <!-- ## License
