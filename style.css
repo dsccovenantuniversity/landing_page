@@ -1,20 +1,50 @@
-* { 
+/* base styles */
+* ,*::before, *::after{ 
 	box-sizing: border-box;
 }
-
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
 html, body {
 	min-height: 100%;
+    height:auto;
+    width:100%;
 	background: #fff;
 	color: #000;
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding:0;
+    margin:0;
+    
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
-	
+	li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color:inherit;
+    }
 body {
-	font-size: 1.4rem;
 	text-rendering: optimizeLegibility;
 }
-
+img{
+    max-width: 100%;
+    display:block;
+}
 /* Please don't make changes to the code above unless necessary */
+/* css variables */
+:root{
+ --black: hsl(0, 0%, 0%);
+ --yellow:  hsl(41, 68%, 59%);
+ --dark-grey: hsl(231, 10%, 14%);
+ --light-grey:  hsl(330, 2%, 75%);
+ --white:hsl(0, 0%, 100%);
+ --f-w-400: 400;
+ --f-w-700: 700;
+}
 /* Start writing your CSS code after this line */
 
 
@@ -72,9 +102,9 @@ body {
 /* Section gallery ends */
 
 
-/* Section book-now begins */
+/*  footer begins */
 
-/* Section book-now ends */
+/* footer ends */
 
 
 
