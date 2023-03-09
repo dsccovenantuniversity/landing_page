@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+   <link rel="stylesheet" href="style.css">
+   <script src="app.js" defer></script>
     <title>Resturant Landing Page</title>
-    <noscript>This site needs javascript to run</noscript>
 </head>
 <body>
    
@@ -20,7 +20,7 @@
     </ul>
     <div class="main--nav ">
         <figure>
-            <img src="" alt="brand logo">
+            <img src="./assets/logo-icon.png" alt="brand logo">
         </figure>
         <ul class="main--nav--menu">
         <li>Home</li>
@@ -56,10 +56,54 @@
         </span>
     </div>
    </nav>
-   <header class="hero--section">
-    <figure>
-        <img src="./assets/hero-image.png" class="hero--image" alt="">
-    </figure>
+   <header class="hero--section bg-1">
+    <a id="js--prev--button" class="prev--button"></a>
+    <div class="hero--content ">
+      
+        <div class="hero--text--content ">
+            <p class="top--text">Welcome to our </p>
+        <h1 class="heading--text">
+            Resturant
+        </h1>
+        <p class="bottom--text">The best multi-cuisine resturant</p>
+        <div class="btn--container">
+            <a href="#" class="btn-lg btn-outline">Book table</a>
+            <a href="#" class="btn-lg btn-outline">View Menu</a>
+      
+        </div>
+    </div>
+    
+        <div class="hero--text--content  d-none">
+            <p class="top--text">Special Menu</p>
+        <h1 class="heading--text">
+            Italian Pizza
+        </h1>
+        <p class="bottom--text">The best multi-cuisine resturant</p>
+        <div class="btn--container">
+            <a href="#" class="btn-lg btn-outline">Book table</a>
+            <a href="#" class="btn-lg btn-outline">View Menu</a>
+        </div>
+        </div>
+        
+      
+    <div class="hero--text--content  d-none">
+        <p class="top--text">Popular Menu</p>
+    <h1 class="heading--text">
+        Flackey Puff
+    </h1>
+    <p class="bottom--text">The best multi-cuisine resturant</p>
+    <div class="btn--container">
+        <a href="#" class="btn-lg btn-outline">Book table</a>
+        <a href="#" class="btn-lg btn-outline">View Menu</a>
+    </div>
+   
+    </div>
+    <div class="paginate--container">
+        <div class="paginate--btn"></div>
+        <div class="paginate--btn"></div>
+        <div class="paginate--btn"></div>
+    </div>
+   <a  id="js--next--button" class="next--button"></a>
     <div class="overlay"></div>
    </header>
    <main>
@@ -97,6 +141,6 @@
     <footer>
 
     </footer>
-<script src="app.js"></script>
+
 </body>
 </html>
