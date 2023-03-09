@@ -429,32 +429,20 @@ img {
 }
 .features--card{
     position: relative;
+    top:0;
+    z-index: -3;
     width:11.89rem;
     height:16.4rem;
- 
-   
     background-color: rgba(32, 33, 39, 0.864);;
-    
     margin-right: 1.5rem;
     color:var(--white);
     margin-bottom: 1.5rem;
     
 }
-.features--card::after{
-    position: absolute;
-    content: "";
-    border:2.2px solid rgba(255,255,255,0.5);
-    height:14.5rem;
-    width:9.5rem;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
-}
 .card--top{
     height:9.5rem;
-    
+    width:100%;
+     
 }
 .card--top img{
     height:3.5rem;
@@ -466,32 +454,130 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-   
+  
+}
+
+.card--bottom:hover{
+  color:var(--yellow) ;
+  background-color: var(--dark-grey);
 }
 .card--bottom{
-    position: relative;
-    height:7rem;
-    background-color: var(--yellow);
+    height:6.2rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:rgba(222, 177, 79,0.8);
     text-align: center;
     color:var(--dark-grey);
     font-weight: var(--f-w-700);
     font-size: 1.55rem;
-    cursor: pointer;
     display: block;
+    width:11.89rem;
+    cursor: pointer;
+   
 }
 .card--bottom p{
-    display: inline-block;
+    display: block;
 }
-.card--bottom:hover{
-    color:var(--yellow);
-    background-color: var(--dark-grey);
-}
+
 
 /* Section about-us ends */
 
 /* Section offer begins */
-
+.offers--section{
+  margin-top: 2.5rem;
+  background-image: url('./assets/pizzabackground.png');
+  background-repeat: no-repeat;
+  min-height:100vh;
+  height: auto;
+  text-align: center;
+  background-size: cover;
+  width:100%;
+  background-position: center center;
+  color:var(--white);
+}
+.offers--title--heading{
+  padding-top:5.5rem;
+  font-size:1.35rem;
+}
+.offers--main--heading{
+  font-size: 2rem;
+}
+.offers--section article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:1.5rem;
+}
+.offers--section article figure {
+  display:flex;
+  width:100%;
+  height:400px;
+}
+ .offers--section article figure img{
+  height: 100%;
+ width:100%;
+  flex-shrink: 0; 
+}
+.offers--card{
+  color:var(--white);
+  background-color: var(--dark-grey);
+  width:100%;
+  position: relative;
+  text-align: center;
+  height:400px;
+  overflow: hidden;
+}
+.offers--card--content, .features--card--content{
+  border:2px solid rgba(255, 255, 255, 0.5);
+  width:90%;
+  height:90%;
+  margin:5% auto;
+}
+.offers--card--heading{
+  font-size: 2rem;
+  margin-top:10%;
+  text-transform: uppercase;
+}
+.offers--discount{
+  padding: 0.35rem;
+  background-color: var(--yellow);
+  width:5.5rem;
+  margin:1.2rem auto 0.45rem;
+  color:var(--dark-grey);
+  font-weight: var(--f-w-700);
+  font-size:1.2rem;
+}
+.offers--price {
+  color:var(--yellow);
+  font-size:1.55rem;
+  font-weight: var(--f-w-700);
+}
+.old--price{
+  text-decoration: line-through;
+  color: rgba(255,255,255,0.45);
+  margin-right:0.5rem;
+}
+.offers--para {
+  width:80%;
+  margin:0.85rem auto;
+}
+.offers--card .btn-lg{
+  position:absolute;
+  bottom:10%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  width:45%;
+  min-width:170px;
+}
+.offers--card img{
+  position:absolute;
+  opacity:0.35;
+  left:5%;
+  height:150px;
+}
 /* Section offer ends */
 
 /* Section menu begins */
@@ -537,6 +623,21 @@ img {
   .btn--container .btn-lg:first-child {
     margin-right: 1.95rem;
     margin-bottom: 0;
+  }
+    .offers--card--heading,.offers--main--heading{
+      font-size: 2.5rem;
+    }
+  
+}
+@media (min-width:600px){
+  .offers--section article figure{
+      width:400px;
+  }
+  .offers--card{
+    width:450px;
+  }
+  .offers--card::after{
+    width:360px;
   }
 }
 
@@ -615,4 +716,17 @@ img {
   .para--main--text{
     width:80%;
   }
+  .offers--section article{
+    flex-direction: row;
+  }
+  .offers--section article figure{
+    width:300px;
+    height:500px;
+}
+.offers--card{
+  height:500px;
+}
+.offers--card::after{
+  height:450px;
+}
 }
