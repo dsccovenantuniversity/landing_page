@@ -4,71 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Landing Page</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="app.js" defer></script>
+    <title>Resturant Landing Page</title>
 </head>
 <body>
-    <section id="home"> 
-
-    </section>
-
-
-
-    <section id="about-us"> 
-
-    </section>
-
-
-
-    <section id="offer"> 
-
-    </section>
-
-
-
-    <section id="menu"> 
-
-    </section>
-
-
-
-    <section id="dropdown">
-        <div class="our-chef">
-            
-        </div>
-        <div class="testimonial">
-            
-        </div>
-        <div class="popular-dishes">
-            
-        </div>
-        <div class="cateling">
-            
-        </div>
-        <div class="events">
-            
-        </div>
-    </section>
-
-
-
-    <section id="contact"> 
-
-    </section>
-
-
-
-    <section id="book-now"> 
-
-    </section>
-
-
-
-    <section id="home"> 
-
-    </section>
    
+   <nav class="site--navigation">
+    <ul class="top--navigation">
+        <li>Mon to Sat: 08:00-15:30</li>
+        <div class="top--navigation--left">
+        <li>+234123456789</li>
+        <li>biteMe@gmail.com</li>
+        </div>
+    </ul>
+    <div class="main--nav ">
+        <figure>
+            <img src="./assets/logo-icon.png" alt="brand logo">
+        </figure>
+        <ul class="main--nav--menu">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Offer</li>
+        <li>Menu</li>
+        <li id="js--dropdown" class="dropdown">dropdown
+            <span class="d-none container ">
+                <span class="items">Our Chef</span>
+                <span class="items">
+                    Popular Dishes
+                </span><span class="items">
+                    Cateling
+                </span><span class="items">
+                    Events
+                </span>
+                <span class="items">
+                    Testimonal
+                </span></span>
+        </li>
+        <li>
+            Gallery
+        </li>
+        <li>
+            Contact
+        </li>
+        <li>
+        Book now
+        </li>
+        </ul>
+        <span id="js--menu" class="hamburger--menu">
+            <span class="line"></span><span class="line"></span><span class="line"></span>
+        </span>
+    </div>
+   </nav>
+   <header class="hero--section bg-1">
+    <a id="js--prev--button" class="prev--button"></a>
+    <div class="hero--content ">
+      
+        <div class="hero--text--content ">
+            <p class="top--text">Welcome to our </p>
+        <h1 class="heading--text">
+            Resturant
+        </h1>
+        <p class="bottom--text">The best multi-cuisine resturant</p>
+        <div class="btn--container">
+            <a href="#" class="btn-lg btn-outline">Book table</a>
+            <a href="#" class="btn-lg btn-outline">View Menu</a>
+      
+        </div>
+    </div>
     
-<script src="app.js"></script>
+        <div class="hero--text--content  d-none">
+            <p class="top--text">Special Menu</p>
+        <h1 class="heading--text">
+            Italian Pizza
+        </h1>
+        <p class="bottom--text">The best multi-cuisine resturant</p>
+        <div class="btn--container">
+            <a href="#" class="btn-lg btn-outline">Book table</a>
+            <a href="#" class="btn-lg btn-outline">View Menu</a>
+        </div>
+        </div>
+        
+      
+    <div class="hero--text--content  d-none">
+        <p class="top--text">Popular Menu</p>
+    <h1 class="heading--text">
+        Flackey Puff
+    </h1>
+    <p class="bottom--text">The best multi-cuisine resturant</p>
+    <div class="btn--container">
+        <a href="#" class="btn-lg btn-outline">Book table</a>
+        <a href="#" class="btn-lg btn-outline">View Menu</a>
+    </div>
+   
+    </div>
+    <div class="paginate--container">
+        <div class="paginate--btn"></div>
+        <div class="paginate--btn"></div>
+        <div class="paginate--btn"></div>
+    </div>
+   <a  id="js--next--button" class="next--button"></a>
+    <div class="overlay"></div>
+   </header>
+   <main>
+    <section class="story--section">
+        <img src="./assets/side-dish.png" alt="" class="story--section--dish">
+        <article class="story--container">
+<h2 class="story--small--heading yellow--text">our story</h2>
+
+<h1 class="story--large--heading">About us</h1>
+<div > <p class="yellow--text para--top--text">Lorem ipsum, dolor sit amet consectetur<br/> adipisicing elit. Et 
+    illum perferendis fuga nesciunt </p> 
+    <p class="para--main--text"> error libero corporis incidunt voluptatibus ea earum 
+     tempora, laboriosam, e mollitia laboriosam, 
+     accusantium reprehenderit nemo illum velit aliquid labore ipsa rem? Corporis, repellendus necessitatibus?
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     Fugiat totam quas illum voluptate animi, labore molestiae? Necessitatibus iusto recusandae beatae.
+    </p></div>
+     <div class="card--container">
+        <div class="features--card">
+            <div class="features--card--content">            <div class="card--top">
+            <img src="./assets/bicycle.svg" alt="bicycle">
+        </div>
+        <div class="card--bottom">
+            <p>Free<br/> Delivery</p>
+        </div>
+        </div>
+    </div>
+        <div class="features--card">
+            <div class="features--card--content">
+            <div class="card--top">
+            <img src="./assets/dish.svg" alt="dish">
+        </div>
+        <div class="card--bottom">
+            <p>Freshly <br/> Cooked</p>
+        </div>
+    </div>
+</div>
+        <div class="features--card">
+            <div class="features--card--content">
+            <div class="card--top">
+            <img src="./assets/24hours.svg" alt="clock">
+        </div>
+        <div class="card--bottom">
+            <p>24 hours <br/> support</p>
+        </div>
+    </div>
+    </div>
+     </div>
+        </article>
+        <figure>
+            <img src="./assets/chef.png" alt="chef holding a bread basket">
+        </figure>
+    </section>
+    <section class="offers--section">
+        <h3 class='yellow--text offers--title--heading'>Hot Offers</h3>
+        <h1 class="offers--main--heading">Today's Special</h1>
+        <article>
+            <figure>
+                <img src="./assets/fullPizza.png" alt="">
+            </figure>
+            <div class="offers--card">
+                <div class="offers--card--content">
+                <h1 class="offers--card--heading">Italian pizza</h1>
+                <p class="offers--discount">40% off</p>
+                <p class="offers--price"> <span class="old--price">$50</span> $20</p>
+                <p class="offers--para">Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Temporibus, amet voluptas quos sint commodi veniam. Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class=" btn-lg btn-outline">order now</a>
+                <img src="./assets/pizzaArt.svg" alt="pizza art" srcset="">
+            </div>
+            </div>
+            <figure>
+                <img src="./assets/pizzaSlice.png" alt="" >
+            </figure>
+        </article>
+    </section>
+    <section class="menu--section">
+
+    </section>
+    <section class="dishes--section">
+
+    </section>
+    <section class="reservation--section">
+
+    </section>
+    <section class="team--section">
+
+    </section>
+    <section class="testimonal--section">
+
+    </section>
+    <section class="catering--section">
+
+    </section>
+    <section class="gallery--section">
+
+    </section>
+    <section class="events--section">
+
+    </section>
+   </main>
+    <footer>
+
+    </footer>
+
 </body>
 </html>
